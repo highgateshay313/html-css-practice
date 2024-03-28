@@ -1,12 +1,15 @@
 
 main {
-    margin: 80px;
-    max-width: 1759px;
+    margin: 85px;
+    max-width: 1959px;
     min-width: 1500px;
 }
 
 body {
     background: rgb(88, 88, 88);
+    margin: 0;
+    width: 100%;
+    height: 100%;
 }
 
 span {
@@ -18,6 +21,7 @@ span {
     color: white;
     width: 100%;
     height: 700px;
+    margin: 20px;
 }
 
   #logo {
@@ -44,7 +48,7 @@ span {
     display: flex;
     list-style: none;
     align-items: center;
-    margin: 0 300px 0 0;
+    margin: 0 200px 0 0;
 }
 
 .list-items {
@@ -76,4 +80,14 @@ span {
 
 .title-img img {
     border-radius: 20px;
+}
+
+.btn {
+   background: blue;
+   padding: 10px;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   font-weight: bold;
+
 }
