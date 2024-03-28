@@ -17,7 +17,7 @@ span {
 }
 
 .header-main {
-    background: rgb(10, 10, 46);
+    background: linear-gradient(50deg, rgb(16, 16, 63), gray);
     color: white;
     width: 100%;
     height: 700px;
