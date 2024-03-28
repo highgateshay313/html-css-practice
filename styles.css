@@ -1,15 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
 
 main {
-    margin: 85px;
-    max-width: 1959px;
-    min-width: 1500px;
+    margin: 0 auto;
+    max-width: 1500px;
+    min-width: 1200px;
 }
 
 body {
     background: rgb(88, 88, 88);
     margin: 0;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
 }
 
 span {
@@ -71,11 +79,15 @@ span {
 
 .header-title {
     width: 30%;
-    margin: 70px 0 0 150px;
+    margin: 0 auto;
 }
 
 .title h1{
     font-size: 3rem;
+}
+
+.title p {
+    font-size: 1.4rem;
 }
 
 .title-img img {
@@ -83,11 +95,12 @@ span {
 }
 
 .btn {
-   background: blue;
+   background: rgb(74, 74, 206);
    padding: 10px;
    color: white;
    border: none;
    border-radius: 5px;
    font-weight: bold;
+   font-size: 1.2rem;
 
 }
