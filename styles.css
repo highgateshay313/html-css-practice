@@ -130,3 +130,18 @@ span {
     border-radius: 10px;
     margin: 20px;
 }
+
+.para-box {
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+    text-align: center;
+}
+
+.para-box div {
+    width: 200px;
+    height: 110px;
+    margin: 20px;
+    border-radius: 10px;
+    
+}
