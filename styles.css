@@ -104,3 +104,29 @@ span {
    font-size: 1.2rem;
 
 }
+
+.sec2-title {
+    background: white;
+    color: black;
+    height: 550px;
+}
+
+.sec2-title h1 {
+    text-align: center;
+    padding-top: 37px;
+}
+
+.sec2-box {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+
+}
+
+.sec2-box div {
+    width: 200px;
+    height: 230px;
+    border: 4px solid blue;
+    border-radius: 10px;
+    margin: 20px;
+}
